@@ -16,31 +16,31 @@ sidebarbtn.addEventListener("click", function() {
 })
 
 grayBackground.addEventListener("click", function(){
-    background.classList.toggle("gray-background");
+    background.className="gray-background";
     slideHidden.classList.remove("on");
 } )
 
 redBackground.addEventListener("click", function(){
-    background.classList.toggle("red-background");
+    background.className="red-background";
     slideHidden.classList.remove("on");
 })
 
 blueBackground.addEventListener("click", function(){
-    background.classList.toggle("blue-background");
+    background.className="blue-background";
     slideHidden.classList.remove("on");
 })
 
 yellowBackground.addEventListener("click", function(){
-    background.classList.toggle("yellow-background");
+    background.className="yellow-background";
     slideHidden.classList.remove("on");
 })
 
 greenBackground.addEventListener("click", function(){
-    background.classList.toggle("green-background");
+    background.className="green-background";
     slideHidden.classList.remove("on");
 })
 
 purpleBackground.addEventListener("click", function(){
-    background.classList.toggle("purple-background");
+    background.className="purple-background";
     slideHidden.classList.remove("on");
 })
